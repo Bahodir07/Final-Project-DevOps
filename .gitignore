@@ -172,3 +172,25 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.log
+
+# Django
+db.sqlite3
+media/
+static/
+.env
+celerybeat-schedule
+*.pid
+
+# Virtual environments
+env/
+venv/
+
+# VS Code
+.vscode/
+
